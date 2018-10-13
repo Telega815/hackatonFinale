@@ -1,0 +1,141 @@
+* {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	outline: 0;
+  	font-size: 0;
+}
+
+#but {
+	width: 100px;
+	height: 50px;
+	vertical-align: top;
+	margin: 5px;
+	border: 1px solid orange;
+	cursor: pointer;
+}
+#but:hover {
+	border: 1px solid white;
+}
+
+#blackpanel {
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	display: none;
+}
+
+.win {
+	width: 600px;
+	height: 700px;
+	background-color: white;
+}
+
+.foundHeader {
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	width: 100%;
+	background-color: #CE5453;
+	margin-bottom: 20px;
+}
+
+.foundHeader span {
+	font-size: 30px;
+	color: white;
+	line-height: 60px;
+	margin-left: 20px;
+}
+
+#close {
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	cursor: pointer;
+}
+
+
+.foundUsers {
+	width: 600px;
+	height: 170px;
+	border-bottom: 2px solid grey;
+	overflow: auto;
+
+}
+
+.foundUsers img {
+	cursor: pointer;	
+}
+
+.foundUserNameCont {
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+
+.foundUsers span {
+	font-size: 25px;
+}
+
+.foundUserCont {
+	display: flex;
+	/*justify-content: left;*/
+}
+
+.foundUser {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	/*height: 170px;*/
+	margin-left: 20px;
+}
+
+.foundUserImg {
+	width: 100px;
+	height: 100px;
+}
+
+.foundUserRating {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 20px;
+	background-color: #CE5453
+}
+
+.foundUserRating img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.foundUserRating span {
+	font-size: 20px;
+}
+
+.ratedUser {
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: 70px;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.ratedUser img {
+	width: 50px;
+	height: 50px;
+}
+
+.ratedUser span {
+	display: inline-block;
+	background-color: white;
+	width: 50px;
+	font-size: 16px;
+}

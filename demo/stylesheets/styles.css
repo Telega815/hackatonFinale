@@ -1,0 +1,187 @@
+* {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	outline: 0;
+  	font-size: 0;
+}
+
+/*header {
+    width: 100%;
+    height: 60px;
+    background-color: #33383E;
+}*/
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 20px 0;
+}
+
+.basicInfo {
+    width: 200spx; 
+}
+.profilePhotoCont {
+    width: 200px;
+    margin-bottom: 8px;
+    background-color: white;
+}
+
+#profilePhoto {
+    width: 200px;
+    height: 200px;
+}
+
+#about {
+    width: 200px;
+    font-size: 15px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #CE5453;
+    cursor: pointer;
+}
+
+#portfolio {
+    width: 200px;
+    font-size: 15px;
+    padding: 5px 15px;
+    color: white;
+    background-color: #33383E;
+    cursor: pointer;
+}
+
+.verification {
+    width: 180px;
+    font-size: 15px;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 15px;
+    background-color: #6600FF;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.workTitle {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.work {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.additionalInfo {
+    width: 590px;
+    margin-left: 10px;
+}
+
+.profileTextCont {
+    height: 40px;
+    background-color: white;
+    line-height: 40px;
+}
+
+.profileText {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.userDataCont {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.userData {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+
+.userData th {
+    font-size: 12px;
+    border: 1px solid grey;
+    padding: 4px 15px;
+}
+
+.userDataValues {
+    background-color: #EFEFEF;
+    color: grey;
+}
+
+.professionalSkills {
+    /*margin-top: 2px;*/
+    background-color: white;
+}
+
+.skillNameCont {
+    display: flex;
+    justify-content: center;
+}
+
+.skill1Name {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.skill {
+    margin-left: 10px;
+    background-color: white;
+}
+
+.skillName {
+    font-size: 16px;
+    color: grey;
+}
+
+.progressBarCont {
+    display: flex;
+    justify-content: space-around;
+}
+
+progress {
+    background-color: #CE5453;
+    height: 10px;
+    width: 500px;
+    border: 2px solid #CE5453;
+    border-radius: 10px;
+    margin: 10px;
+}
+progress::-webkit-progress-bar {
+   background-color: white;
+}
+progress::-webkit-progress-value {
+   background-color: #CE5453;
+}
+progress::-moz-progress-bar {
+    background-color: #CE5453;
+    height: 10px;
+    width: 500px;
+    border: 2px solid #CE5453;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.skillValues {
+    font-size: 18px;
+    margin-right: 10px;
+}

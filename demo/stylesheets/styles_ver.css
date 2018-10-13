@@ -1,0 +1,97 @@
+* {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	outline: 0;
+  	font-size: 0;
+  	overflow: none;
+}
+
+#but {
+	width: 100px;
+	height: 50px;
+	vertical-align: top;
+	margin: 5px;
+	border: 1px solid orange;
+	cursor: pointer;
+}
+#but:hover {
+	border: 1px solid white;
+}
+
+#blackpanel1 {
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	display: none;
+}
+
+.win {
+	width: 600px;
+	height: 420px;
+	background-color: white;
+}
+
+.foundHeader {
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	width: 100%;
+	background-color: #CE5453;
+}
+
+.foundHeader span {
+	font-size: 30px;
+	color: white;
+	line-height: 60px;
+	margin-left: 20px;
+}
+
+#close {
+	width: 60px;
+	height: 60px;
+	background-color: #33383E;
+	cursor: pointer;
+}
+
+.verificationUsers {
+	display: flex;
+	align-items: center;
+	width: 600px;
+	padding: 20px 0;
+	border-bottom: 2px solid grey;
+}
+
+.verificationUsers img {
+	width: 100px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+.verificationUsers span {
+	display: inline-block;
+	width: 390px;
+	font-size: 30px;
+	margin: 0 20px;
+}
+
+.verificationUsers input {
+	width: 30px;
+	height: 30px;
+}
+
+.verificationBut {
+	font-size: 25px;
+	color: white;
+	background-color: #33383E;
+	padding: 5px 20px;
+	margin: 20px 0 20px 380px;
+	cursor: pointer;
+}
+

@@ -1,0 +1,126 @@
+* {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	outline: 0;
+  	font-size: 0;
+}
+#blackpanelReg {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+#winLogIn {
+  display: none;
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+#winRegistration {
+  display: none;
+  position: absolute;
+  width: 350px;
+  height: 450px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+.closeBlock {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+}
+#closeReg1 {
+  width: 40px;
+  height: 40px;
+  background-image: url("../media/images/close1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+.closeReg1:hover {
+  background-color: grey;
+}
+#closeReg2 {
+  width: 40px;
+  height: 40px;
+  background-image: url("../media/images/close.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white; 
+  border-radius: 4px;
+  cursor: pointer;
+}
+.closeReg2:hover {
+  background-color: grey;
+}
+.forms {
+  margin-left: 40px;
+}
+#winLogIn legend {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+#winRegistration legend {
+  font-size: 30px;
+}
+.legendSpan {
+  font-size: 15px;
+}
+.form-group {
+  margin-top: 15px;
+}
+.form-group label {
+  font-size: 24px;
+}
+.form-group input {
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-top: 1px solid #AFAFAF;
+  border-right: 0.5px solid #AFAFAF;
+}
+.form-group input:focus {
+  background-color: #DFE9EB;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 114px;
+  margin-top: 15px;
+  border-top: 1px solid #AFAFAF;
+  background-color: #D4DEDF;
+  border-radius: 0 0 5px 5px;
+}
+.btn {
+  height: 50px;
+  padding: 4px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #55C2E1;
+  color: white;
+}
+#regButton {
+  font-size: 20px;
+  cursor: pointer;
+}
+#regButton:hover {
+  color: #55C2E1;;
+}
+
